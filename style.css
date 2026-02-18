@@ -26,14 +26,15 @@ body.index {
 .moving-text {
     position: absolute;
     white-space: nowrap;       /* Prevent text from wrapping */
-    animation: moveRight 12s linear infinite;
+    animation: moveRight 18s linear infinite;
+    animation-delay: -6s;
     color: #fff0f3;
     font-style: italic;
     text-align: center;
   }
   @keyframes moveRight {
     0% {
-      left: -10%; /* Start completely off-screen to the left */
+      left: -105%; /* Start completely off-screen to the left */
     }
     100% {
       left: 105%;  /* Move completely off-screen to the right */
